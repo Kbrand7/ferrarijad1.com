@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ferrari Car Webpage</title>
+  <link rel="stylesheet" href="fstyle.css">
+<style>
+.sel{
+width: 550px;
+top:10%;
+left: 10%;
+}
+.sel p{
+color: white;
+  font-size: 1.2em;
+
+}
+.sel h2{
+color: yellow;
+  text-align: right;
+  font-size: 3em;
+font-type: Times New Roman;
+}
+</style>
+</head>
+<body>
+		<nav>
+		<div class="images/logo"></div>
+			<img src="logo.jpg">
+		<div class="nav-links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</div>
+		</nav>
+  <header>
+ <h1 class="title">OFFICIAL FERRARI CAR WEBSITE</h1>
+  </header>
+  <main>
+		<div class="overlay"></div>
+   <div class=slideshow-container>
+<div class="slide fade"><img src="1.jpg"></div>
+<div class="slide fade"><img src="2.jpg"></div>
+<div class="slide fade"><img src="3.jpg"></div>
+<div class="slide fade"><img src="4.jpg"></div>
+<div class="slide fade"><img src="5.jpg"></div>
+<div class="slide fade"><img src="6.jpg"></div>
+<div class="slide fade"><img src="7.jpg"></div>
+<div class="slide fade"><img src="8.jpg"></div>
+<div class="slide fade"><img src="9.jpg"></div>
+<div class="slide fade"><img src="10.jpg"></div>
+<div class="slide fade"><img src="11.jpg"></div>
+<div class="slide fade"><img src="11.jpg"></div>
+</div>
+    </div>
+
+    <section div class="sel">
+      <h2>FEATURED CARS</h2>
+      <p>Welcome to the world of Ferrari, where speed meets luxury and innovation meets style.
+ Our high-performance cars are designed with precision and power in mind, delivering a driving 
+experience like no other. With cutting-edge technology and engineering, each Ferrari is a masterpiece of 
+innovation and exclusivity. Our limited edition vehicles are not just cars, but symbols of status and success. 
+From the sleek and sophisticated design to the premium materials used in each vehicle, owning a Ferrari is an experience unlike any other. 
+Explore our collection today and discover the ultimate in speed, power, and luxury.</p>
+    </section>
+
+  </main>
+
+  <footer>
+        <div class="row primary">
+        <div class="column about">
+          <h3>FERRARI CAR COMPANY</h3>
+          <p>
+ Dealers In Ferrari Car Production And Selling of Products
+          </p>
+        </div>
+        <div class="column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#faq">F.A.Q</a>
+            </li>
+            <li>
+              <a href="#cookies-policy">Cookiesy</a>
+            </li>
+            <li>
+              <a href="#terms-of-services">Service</a>
+            </li>
+            <li>
+              <a href="#support">Support</a>
+            </li>
+            <li>
+              <a href="#careers">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3>Subscribe</h3>
+          <div>
+            <input type="email" placeholder="Your email id here" />
+            <button>Subscribe</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+254 745151552</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>ferraricargroup.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>1234 Pearl Street</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2023 Ferrari Company | All Rights Reserved</p>
+      </div>
+  </footer>
+
+ 	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+
+  var slides = document.getElementsByClassName("slide");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 1 seconds
+}
+
+</script>
+</body>
+</html>

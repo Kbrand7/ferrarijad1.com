@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ferrari Car Webpage</title>
+  <link rel="stylesheet" href="fstyle.css">
+<style>
+.about{
+width:100%;
+padding: 78px 0px;
+
+}
+.about img{
+height: auto;
+width: 400px;
+left: 10%;
+} 
+
+.select{
+width:1000px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content:space-around;
+}
+.about-text p{
+color: white;
+
+}
+.about-text{
+width: 1000px;
+}
+</style>
+</head>
+<body>
+		<nav>
+		<div class="images/logo"></div>
+			<img src="logo.jpg">
+		<div class="nav-links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</div>
+		</nav>
+  <header>
+ <h1 >ABOUT US</h1>
+  </header>
+  <main>
+		<div class="overlay"></div>
+ 
+<img src="20.jpg">
+    <selection class="about">
+	<div class="select">
+
+<div class="about-text">
+  <P>Welcome to the Ferrari Car Webpage, where passion for performance meets timeless design and innovation. 
+For over 70 years, Ferrari has been at the forefront of the automotive industry, creating some of the world's most iconic sports cars. Our story began in 1947,
+ when Enzo Ferrari founded the company with a vision of creating cars that were not only fast but also beautiful and technologically advanced.</P>
+
+<P>Today, that vision lives on, as each Ferrari vehicle is meticulously designed and engineered to deliver an unparalleled driving experience. From the classic 
+curves of the 1960s to the sleek lines of modern-day models, Ferrari's design philosophy has always been about creating cars that are both stylish and functional.</P>
+
+
+<P>Finally, Ferrari's racing heritage is also an essential part of our brand. Our racing team has won numerous championships over the years, and this passion 
+for motorsports is reflected in every car we produce. Whether you're a racing enthusiast or simply a lover of beautiful cars,
+we invite you to explore our collection and experience the passion, innovation, and exclusivity of Ferrari for yourself.</P>
+
+<button> MORE ABOUT US</button>
+</div>
+<div>
+    </selection>
+
+  </main>
+
+  <footer>
+        <div class="row primary">
+        <div class="column about">
+          <h3>FERRARI CAR COMPANY</h3>
+          <p>
+ Dealers In Ferrari Car Production And Selling of Products
+          </p>
+        </div>
+        <div class="column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#faq">F.A.Q</a>
+            </li>
+            <li>
+              <a href="#cookies-policy">Cookiesy</a>
+            </li>
+            <li>
+              <a href="#terms-of-services">Service</a>
+            </li>
+            <li>
+              <a href="#support">Support</a>
+            </li>
+            <li>
+              <a href="#careers">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3>Subscribe</h3>
+          <div>
+            <input type="email" placeholder="Your email id here" />
+            <button>Subscribe</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+254 745151552</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>ferraricargroup.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>1234 Pearl Street</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2023 Ferrari Company | All Rights Reserved</p>
+      </div>
+  </footer>
+
+ 	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+
+  var slides = document.getElementsByClassName("slide");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+</script>
+</body>
+</html>

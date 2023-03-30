@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ferrari Car Webpage</title>
+  <link rel="stylesheet" href="fstyle.css">
+<style>
+
+
+section {
+  height: ;
+  width: 100%;
+  display: ;
+  place-items: left;
+}
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+.columns {
+  width: 100%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+  margin: 1em 0;
+}
+p {
+  color: #575a7b;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.icon-wrapper {
+  background-color: #2c7bfe;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+  background-position: 0 100%;
+}
+.card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #2c7bfe;
+}
+.card:hover h3 {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #f0f0f0;
+}
+@media screen and (min-width: 500px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+@media screen and (min-width: 500px) {
+  section {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+</style>
+</head>
+<body>
+		<nav>
+		<div class="images/logo"></div>
+			<img src="logo.jpg">
+		<div class="nav-links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</div>
+		</nav>
+  <header>
+ <h1 >OUR SERVICES</h1>
+  </header>
+  <main>
+    <section>
+      <div class="rows">
+        <div class="columns">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-hammer"></i>
+            </div>
+            <h4>Maintenance</h4>
+            <p>
+We have highly trained technicians use the latest diagnostic tools and equipment to keep your car running smoothly
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-brush"></i>
+            </div>
+            <h4>Repairs</h4>
+            <p>
+ We do all form of repaires from minor repairs to major overhauls.Our commitment is to use only genuine Ferrari parts to ensure the highest level of 
+quality and performance
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-wrench"></i>
+            </div>
+            <h3>Customization</h3>
+            <p>
+            We are able to tailor everything from the exterior color to the interior materials to the individual preferences of the customer.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h4>Restoration</h4>
+            <p>
+            We can restore classic and vintage cars to their original condition. 
+We are experts in preserving the heritage and authenticity of these iconic vehicles..
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-broom"></i>
+            </div>
+            <h4>Training</h4>
+            <p>
+  We offer training services  to owners and enthusiasts who want to improve their driving skills.
+ We have a brand's world-class driving school and the different programs available to suit different skill levels.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-plug"></i>
+            </div>
+            <h4>Concierge Services:</h4>
+            <p>
+ We offer personalized concierge services to customers, including assistance with travel arrangements, event planning, and more. 
+We are dedicated concierge team that  help to make every Ferrari experience truly exceptional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+        <div class="row primary">
+        <div class="column about">
+          <h3>FERRARI CAR COMPANY</h3>
+          <p>
+ Dealers In Ferrari Car Production And Selling of Products
+          </p>
+        </div>
+        <div class="column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#faq">F.A.Q</a>
+            </li>
+            <li>
+              <a href="#cookies-policy">Cookiesy</a>
+            </li>
+            <li>
+              <a href="#terms-of-services">Service</a>
+            </li>
+            <li>
+              <a href="#support">Support</a>
+            </li>
+            <li>
+              <a href="#careers">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3>Subscribe</h3>
+          <div>
+            <input type="email" placeholder="Your email id here" />
+            <button>Subscribe</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+254 745151552</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>ferraricargroup.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>1234 Pearl Street</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2023 Ferrari Company | All Rights Reserved</p>
+      </div>
+  </footer>
+
+ 	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+
+  var slides = document.getElementsByClassName("slide");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+</script>
+</body>
+</html>
